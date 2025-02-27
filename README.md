@@ -7,14 +7,17 @@ Here can go some motivating text for the human who visits the repo.
 * LTS: 4.2
 * django: 4.2, 5.0, 5.1
 * python: 3.9, 3.10, 3.11, 3.12
+* feature-freeze: September 2023
 ### django CMS 4.1
 * LTS: 4.2
 * django: 4.2, 5.0, 5.1, 5.2
 * python: 3.9, 3.10, 3.11, 3.12, 3.13
+* feature-freeze: September 2023
 ### django CMS 5.0
 * LTS: 5.2
 * django: 4.2, 5.0, 5.1, 5.2
 * python: 3.9, 3.10, 3.11, 3.12, 3.13
+* feature-freeze: February 2025
 
 ## CMS packages
 ### djangocms-alias
