@@ -16,7 +16,7 @@ Here can go some motivating text for the human who visits the repo.
 * django: 4.2, 5.0, 5.1, 5.2
 * python: 3.9, 3.10, 3.11, 3.12, 3.13
 
-## Ecosystem packages
+## CMS packages
 ### djangocms-alias
 Universial alias plugin for all contents that needs to be repeated within a project.
 * django CMS: 4.1, 5.0
@@ -77,3 +77,11 @@ Adds version management for django CMS pages and other packages supporting versi
 django CMS Video is a set of plugins for django CMS that allow you to publish video content on your site.
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
+
+## Django packages
+### django-filer
+File and Image Management Application for django
+django: 4.2, 5.0, 5.1, 5.2
+### django-sekizai
+Django Template Blocks with extra functionality
+django: 4.2, 5.0, 5.1, 5.2
