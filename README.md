@@ -85,3 +85,19 @@ django: 4.2, 5.0, 5.1, 5.2
 ### django-sekizai
 Django Template Blocks with extra functionality
 django: 4.2, 5.0, 5.1, 5.2
+
+## Django timelines
+### 4.2
+* end-of-support: 03/2026
+### 5.0
+* end-of-support: 03/2025
+### 5.1
+* end-of-support: 12/2025
+### 5.2
+* end-of-support: 03/2028
+### 6.0
+* end-of-support: 03/2027
+### 6.1
+* end-of-support: 12/2027
+### 6.2
+* end-of-support: 03/2030
