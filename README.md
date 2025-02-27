@@ -90,10 +90,12 @@ django CMS Video is a set of plugins for django CMS that allow you to publish vi
 ## Django packages
 ### django-filer
 File and Image Management Application for django
-django: 4.2, 5.0, 5.1, 5.2
+* django: 4.2, 5.0, 5.1, 5.2
 ### django-sekizai
 Django Template Blocks with extra functionality
-django: 4.2, 5.0, 5.1, 5.2
+* django: 4.2, 5.0, 5.1, 5.2
+
+## Third-party packages
 
 ## Django timelines
 ### 6.2
