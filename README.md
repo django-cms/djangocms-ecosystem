@@ -3,21 +3,27 @@
 Here can go some motivating text for the human who visits the repo.
 
 ## django CMS
-### django CMS 3.11
-* LTS: 4.2
-* django: 4.2, 5.0, 5.1
-* python: 3.9, 3.10, 3.11, 3.12
-* feature-freeze: September 2023
-### django CMS 4.1
-* LTS: 4.2
-* django: 4.2, 5.0, 5.1, 5.2
-* python: 3.9, 3.10, 3.11, 3.12, 3.13
-* feature-freeze: September 2023
 ### django CMS 5.0
 * LTS: 5.2
 * django: 4.2, 5.0, 5.1, 5.2
 * python: 3.9, 3.10, 3.11, 3.12, 3.13
 * feature-freeze: February 2025
+### django CMS 4.1
+* LTS: 4.2
+* django: 4.2, 5.0, 5.1, 5.2
+* python: 3.9, 3.10, 3.11, 3.12, 3.13
+* feature-freeze: September 2023
+### django CMS 3.11
+* LTS: 3.2, 4.2
+* django: 4.2, 5.0, 5.1
+* python: 3.9, 3.10, 3.11, 3.12
+* feature-freeze: September 2023
+### django CMS 3.8
+* LTS: 2.2
+* feature-freeze: October 2020
+### django CMS 3.7
+* LTS: 2.2
+* feature-freeze: June 2020
 
 ## CMS packages
 ### djangocms-alias
@@ -90,17 +96,23 @@ Django Template Blocks with extra functionality
 django: 4.2, 5.0, 5.1, 5.2
 
 ## Django timelines
-### 4.2
-* end-of-support: 03/2026
-### 5.0
-* end-of-support: 03/2025
-### 5.1
-* end-of-support: 12/2025
-### 5.2
-* end-of-support: 03/2028
-### 6.0
-* end-of-support: 03/2027
-### 6.1
-* end-of-support: 12/2027
 ### 6.2
 * end-of-support: 03/2030
+### 6.1
+* end-of-support: 12/2027
+### 6.0
+* end-of-support: 03/2027
+### 5.2
+* end-of-support: 03/2028
+### 5.1
+* end-of-support: 12/2025
+### 5.0
+* end-of-support: 03/2025
+### 4.2
+* end-of-support: 03/2026
+### 3.2
+* end-of-support: 03/2024
+### 2.2
+* end-of-support: 03/2022
+### 1.11
+* end-of-support: 03/2020
