@@ -39,7 +39,8 @@ django CMS Audio is a set of plugins for django CMS. That allow you to publish a
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 ### djangocms-bootstrap4
-django CMS Bootstrap 4 is a plugin bundle for django CMS providing several components from the popular Bootstrap 4 framework.
+django CMS Bootstrap 4 is a plugin bundle for django CMS providing several components from the popular Bootstrap 4 framework. 
+djangocms-frontend offers an automatic migration.
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * deprecated: 01/2024
