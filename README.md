@@ -58,7 +58,7 @@ Provides a django CMS link field and widget for developers to use in custom cont
 * grade: production
 ### djangocms-maps
 A universal maps plugin for django CMS, supporting all major map providers.
-* django CMS: 3.11, 
+* django CMS: 3.11
 * grade: production
 * repo: Organice/djangocms-maps
 ### djangocms-picture
