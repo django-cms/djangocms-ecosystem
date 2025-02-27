@@ -107,6 +107,11 @@ Django Template Blocks with extra functionality
 * django: 4.2, 5.0, 5.1, 5.2
 
 ## Third-party packages
+### djangocms-blog
+django CMS blog application - Support for multilingual posts, placeholders, social network meta tags and configurable apphooks 
+* django CMS: 3.11
+* grade: production
+* repo: https://github.com/nephila/djangocms-blog
 
 ## Django timelines
 ### 6.2
