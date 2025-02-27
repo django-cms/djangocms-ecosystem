@@ -78,6 +78,11 @@ django CMS Snippet provides a plugin for django CMS to inject HTML, CSS or JavaS
 Text Plugin for django CMS using Tiptap (or any other text editor of your choice)
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
+### djangocms-text-ckeditor
+Text Plugin for django CMS using CKEditor 4 (now sunset)
+* django CMS: 3.11, 4.1, 5.0
+* grade: production
+* deprecated: 04/2025
 ### djangocms-versioning
 Adds version management for django CMS pages and other packages supporting versioning.
 * django CMS: 4.1, 5.0
