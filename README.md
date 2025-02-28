@@ -39,7 +39,7 @@ django CMS Audio is a set of plugins for django CMS. That allow you to publish a
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 ### djangocms-bootstrap4
-django CMS Bootstrap 4 is a plugin bundle for django CMS providing several components from the popular Bootstrap 4 framework. 
+django CMS Bootstrap 4 is a plugin bundle for django CMS providing several components from the popular Bootstrap 4 framework.
 djangocms-frontend offers an automatic migration.
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
@@ -57,8 +57,8 @@ django CMS Frontend is the successor of django CMS Bootstrap 4 currently providi
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 ### djangocms-link
-Universal link plugin - allows intuitive in-text linking to all known linkable objects (starting with CMS pages). 
-Provides a django CMS link field and widget for developers to use in custom content elements. Compatible with 
+Universal link plugin - allows intuitive in-text linking to all known linkable objects (starting with CMS pages).
+Provides a django CMS link field and widget for developers to use in custom content elements. Compatible with
 (and enabled in) djangocms-text.
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
@@ -67,12 +67,20 @@ A universal maps plugin for django CMS, supporting all major map providers.
 * django CMS: 3.11
 * grade: production
 * repo: Organice/djangocms-maps
+### djangocms-moderation
+Moderation workflows for django CMS and django CMS versioning.
+* django CMS: 4.1, 5.0
+* grade: production
+### djangocms-modules
+Reusable user-configured components (made of existing plugins)
+* django CMS: 3.1
+* grade: production
 ### djangocms-picture
 django CMS Picture is a plugin for django CMS that allows you to add images on your site.
 * django CMS: 3.11, 4.2
 * grade: production
 ### djangocms-rest
-djangocms-rest enables frontend projects to consume django CMS content through a browseable read-only, REST/JSON API. 
+djangocms-rest enables frontend projects to consume django CMS content through a browseable read-only, REST/JSON API.
 It is based on the django rest framework (DRF).
 * django CMS: 4.1, 5.0
 * grade: beta
@@ -108,7 +116,7 @@ Django Template Blocks with extra functionality
 
 ## Third-party packages
 ### djangocms-blog
-django CMS blog application - Support for multilingual posts, placeholders, social network meta tags and configurable apphooks 
+django CMS blog application - Support for multilingual posts, placeholders, social network meta tags and configurable apphooks
 * django CMS: 3.11
 * grade: production
 * repo: https://github.com/nephila/djangocms-blog
