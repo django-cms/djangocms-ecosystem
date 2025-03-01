@@ -128,6 +128,9 @@ File and Image Management Application for django
 ### django-sekizai
 Django Template Blocks with extra functionality
 * django: 4.2, 5.0, 5.1, 5.2
+### django-classy-tags
+Class-based template tags for django
+* django: 4.2, 5.0, 5.1, 5.2
 
 ## Third-party packages
 ### djangocms-blog
