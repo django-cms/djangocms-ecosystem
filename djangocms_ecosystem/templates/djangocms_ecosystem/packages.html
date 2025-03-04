@@ -1,0 +1,5 @@
+{% for package in content %}
+    {% if not package.properties.deprecated %}
+        {% include "djangocms_ecosystem/panel.html" with title=package.title description=package.description repo_url=package.properties.repo %}
+    {% endif %}
+{% endfor %}

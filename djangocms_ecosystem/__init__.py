@@ -5,6 +5,7 @@ from requests import get
 url = "https://raw.githubusercontent.com/django-cms/djangocms-ecosystem/refs/heads/main/README.md"
 
 ecosystem = []
+ecosystem_timestamp = None
 
 check = "\u2713  "
 cross = "\u00d7  "
@@ -21,10 +22,11 @@ def read_ecosystem() -> list[dict[list[dict[str, str]]]]:
     Returns:
         The ecosystem configuration.
     """
-    global ecosystem
+    global ecosystem, ecosystem_timestamp
 
-    if not ecosystem:
+    if not ecosystem or (datetime.now() - ecosystem_timestamp).days >= 1:
         ecosystem = _read_ecosystem()
+        ecosystem_timestamp = datetime.now()
     return ecosystem
 
 
