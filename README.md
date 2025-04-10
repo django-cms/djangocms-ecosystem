@@ -68,7 +68,8 @@ Flexible HTML forms for your django CMS projects
 * grade: alpha
 * repo: https://github.com/django-cms/djangocms-form-builder
 ### djangocms-frontend
-django CMS Frontend is the successor of django CMS Bootstrap 4 currently providing components from the popular Bootstrap 5 framework.
+django CMS Frontend facilitates the easy creation of reusable frontend components. It supports any CSS framework. 
+For immediate use, it includes a comprehensive set of Bootstrap 5 components and templates.
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-frontend
