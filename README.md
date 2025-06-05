@@ -11,7 +11,7 @@ Django packages and third-party packages, along with their compatibility and rep
 ## django CMS
 This chapter provides overview over the major django CMS versions, corresponding Long-Term
 Support (LTS) in accordance to which Django LTS version, and actual or planned feature freezes.
-### django CMS tbd
+### django CMS x.x
 * LTS: 6.2
 * feature-freeze: February 2027
 ### django CMS 5.0
