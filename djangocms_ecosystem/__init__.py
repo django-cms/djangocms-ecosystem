@@ -107,7 +107,21 @@ def sorted_versions(versions: list) -> list:
     Returns:
         list: The sorted list of version strings in descending order.
     """
-    return sorted(versions, key=lambda x: tuple(map(int, x.split("."))), reverse=True)
+    def key(version: str) -> tuple:
+        """
+        Converts a version string into a tuple of integers for sorting.
+
+        Args:
+            version (str): The version string to convert.
+
+        Returns:
+            tuple: A tuple of integers representing the version.
+        """
+        try:
+            return tuple(map(int, version.split(".")))
+        except ValueError:
+            return (999, 999, 999)  # Fallback for invalid version formats
+    return sorted(versions, key=key, reverse=True)
 
 
 def get_django_versions():

@@ -11,7 +11,7 @@ Django packages and third-party packages, along with their compatibility and rep
 ## django CMS
 This chapter provides overview over the major django CMS versions, corresponding Long-Term
 Support (LTS) in accordance to which Django LTS version, and actual or planned feature freezes.
-### django CMS (tbd)
+### django CMS tbd
 * LTS: 6.2
 * feature-freeze: February 2027
 ### django CMS 5.0
@@ -71,7 +71,7 @@ Flexible HTML forms for your django CMS projects
 * grade: alpha
 * repo: https://github.com/django-cms/djangocms-form-builder
 ### djangocms-frontend
-django CMS Frontend facilitates the easy creation of reusable frontend components. It supports any CSS framework. 
+django CMS Frontend facilitates the easy creation of reusable frontend components. It supports any CSS framework.
 For immediate use, it includes a comprehensive set of Bootstrap 5 components and templates.
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
