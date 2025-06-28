@@ -39,7 +39,7 @@ Support (LTS) in accordance to which Django LTS version, and actual or planned f
 ## CMS packages
 These packages are officially endorsed by the django CMS Association.
 ### djangocms-alias
-Universial alias plugin for all contents that needs to be repeated within a project.
+Universal alias plugin for all contents that needs to be repeated within a project.
 * django CMS: 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-alias
@@ -104,7 +104,7 @@ django CMS Picture is a plugin for django CMS that allows you to add images on y
 * grade: production
 * repo: https://github.com/django-cms/djangocms-picture
 ### djangocms-rest
-djangocms-rest enables frontend projects to consume django CMS content through a browseable read-only, REST/JSON API.
+djangocms-rest enables frontend projects to consume django CMS content through a browsable read-only, REST/JSON API.
 It is based on the django rest framework (DRF).
 * django CMS: 4.1, 5.0
 * grade: beta
