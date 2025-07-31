@@ -95,7 +95,7 @@ Reusable user-configured components (made of existing plugins)
 * repo: https://github.com/django-cms/djangocms-modules
 ### djangocms-picture
 django CMS Picture is a plugin for django CMS that allows you to add images on your site
-* django CMS: 3.11, 4.2
+* django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-picture
 ### djangocms-rest
