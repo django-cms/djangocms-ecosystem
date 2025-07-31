@@ -170,7 +170,7 @@ django CMS blog application - Support for multilingual posts, placeholders, soci
 django CMS versioning add on, that allows for setting start and end time for an object's visibility when publishing
 * django CMS: 4.1, 5.0
 * grade: alpha
-* repo: https://github.com/fbraun/djangocms-timed-publishing
+* repo: https://github.com/fsbraun/djangocms-timed-publishing
 
 ## Third-party Django packages
 
