@@ -39,23 +39,23 @@ Support (LTS) in accordance to which Django LTS version, and actual or planned f
 ## CMS packages
 These packages are officially endorsed by the django CMS Association.
 ### djangocms-alias
-Universal alias plugin for all contents that needs to be repeated within a project.
+Universal alias plugin for all contents that needs to be repeated within a project
 * django CMS: 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-alias
 ### djangocms-attribute-fields
-An opinionated implementation of JSONField for arbitrary HTML element attributes.
+An opinionated implementation of JSONField for arbitrary HTML element attributes
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-attributes-field
 ### djangocms-audio
-django CMS Audio is a set of plugins for django CMS. That allow you to publish audio files on your site.
+django CMS Audio is a set of plugins for django CMS. That allow you to publish audio files on your site
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-audio
 ### djangocms-bootstrap4
 django CMS Bootstrap 4 is a plugin bundle for django CMS providing several components from the popular Bootstrap 4 framework.
-djangocms-frontend offers an automatic migration.
+djangocms-frontend offers an automatic migration
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * deprecated: 01/2024
@@ -67,45 +67,45 @@ Flexible HTML forms for your django CMS projects
 * repo: https://github.com/django-cms/djangocms-form-builder
 ### djangocms-frontend
 django CMS Frontend facilitates the easy creation of reusable frontend components. It supports any CSS framework.
-For immediate use, it includes a comprehensive set of Bootstrap 5 components and templates.
+For immediate use, it includes a comprehensive set of Bootstrap 5 components and templates
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-frontend
 ### djangocms-link
 Universal link plugin - allows intuitive in-text linking to all known linkable objects (starting with CMS pages).
 Provides a django CMS link field and widget for developers to use in custom content elements. Compatible with
-(and enabled in) djangocms-text.
+(and enabled in) djangocms-text
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-link
 ### djangocms-maps
-A universal maps plugin for django CMS, supporting all major map providers.
+A universal maps plugin for django CMS, supporting all major map providers
 * django CMS: 3.11
 * grade: production
 * repo: https://github.com/Organice/djangocms-maps
 ### djangocms-moderation
-Moderation workflows for django CMS and django CMS versioning.
+Moderation workflows for django CMS and django CMS versioning
 * django CMS: 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-moderation
 ### djangocms-modules
 Reusable user-configured components (made of existing plugins)
-* django CMS: 3.1
+* django CMS: 3.11
 * grade: production
 * repo: https://github.com/django-cms/djangocms-modules
 ### djangocms-picture
-django CMS Picture is a plugin for django CMS that allows you to add images on your site.
+django CMS Picture is a plugin for django CMS that allows you to add images on your site
 * django CMS: 3.11, 4.2
 * grade: production
 * repo: https://github.com/django-cms/djangocms-picture
 ### djangocms-rest
-djangocms-rest enables frontend projects to consume django CMS content through a browsable read-only, REST/JSON API.
+djangocms-rest enables frontend projects to consume django CMS content through a browsable read-only, REST/JSON API
 It is based on the django rest framework (DRF).
 * django CMS: 4.1, 5.0
 * grade: beta
 * * repo: https://github.com/django-cms/djangocms-rest
 ### djangocms-snippet
-django CMS Snippet provides a plugin for django CMS to inject HTML, CSS or JavaScript snippets into your website.
+django CMS Snippet provides a plugin for django CMS to inject HTML, CSS or JavaScript snippets into your website
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-snippet
@@ -131,12 +131,12 @@ Import/Export (JSON) for page contents
 * grade: beta
 * repo: https://github.com/django-cms/djangocms-transfer
 ### djangocms-versioning
-Adds version management for django CMS pages and other packages supporting versioning.
+Adds version management for django CMS pages and other packages supporting versioning
 * django CMS: 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-versioning
 ### djangocms-video
-django CMS Video is a set of plugins for django CMS that allow you to publish video content on your site.
+django CMS Video is a set of plugins for django CMS that allow you to publish video content on your site
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-video
@@ -167,7 +167,7 @@ django CMS blog application - Support for multilingual posts, placeholders, soci
 * grade: production
 * repo: https://github.com/nephila/djangocms-blog
 ### djangocms-timed-publishing
-django CMS versioning add on, that allows for setting start and end time for an object's visibility when publishing.
+django CMS versioning add on, that allows for setting start and end time for an object's visibility when publishing
 * django CMS: 4.1, 5.0
 * grade: alpha
 * repo: https://github.com/fbraun/djangocms-timed-publishing
