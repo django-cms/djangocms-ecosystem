@@ -60,11 +60,6 @@ djangocms-frontend offers an automatic migration.
 * grade: production
 * deprecated: 01/2024
 * repo: https://github.com/django-cms/djangocms-bootstrap4
-### djangocms-blog
-django CMS blog application - Support for multilingual posts, placeholders, social network meta tags and configurable apphooks
-* django CMS: 4.1, 5.0
-* grade: beta
-* repo: https://github.com/fsbraun/djangocms-blog
 ### djangocms-form-builder
 Flexible HTML forms for your django CMS projects
 * django CMS: 3.11, 4.1, 5.0
@@ -114,6 +109,11 @@ django CMS Snippet provides a plugin for django CMS to inject HTML, CSS or JavaS
 * django CMS: 3.11, 4.1, 5.0
 * grade: production
 * repo: https://github.com/django-cms/djangocms-snippet
+### djangocms-stories
+django CMS blog application - Support for multilingual posts, placeholders, social network meta tags and configurable apphooks
+* django CMS: 4.1, 5.0
+* grade: beta
+* repo: https://github.com/django-cms/djangocms-stories
 ### djangocms-text
 Text Plugin for django CMS using Tiptap (or any other text editor of your choice)
 * django CMS: 3.11, 4.1, 5.0
@@ -166,6 +166,11 @@ django CMS blog application - Support for multilingual posts, placeholders, soci
 * django CMS: 3.11
 * grade: production
 * repo: https://github.com/nephila/djangocms-blog
+### djangocms-timed-publishing
+django CMS versioning add on, that allows for setting start and end time for an object's visibility when publishing.
+* django CMS: 4.1, 5.0
+* grade: alpha
+* repo: https://github.com/fbraun/djangocms-timed-publishing
 
 ## Third-party Django packages
 
