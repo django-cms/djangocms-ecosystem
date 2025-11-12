@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "djangocms-ecosystem"
-version = "0.1.0"
+version = "2025/12"
 description = "An overview of the django CMS ecosystem."
 authors = [
     { name = "django CMS Association", email = "info@django-cms.org" }
