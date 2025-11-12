@@ -128,7 +128,7 @@ Text Plugin for django CMS using CKEditor 4 (now sunset)
 ### djangocms-transfer
 Import/Export (JSON) for page contents
 * django CMS: 3.11, 4.1, 5.0
-* grade: beta
+* grade: production
 * repo: https://github.com/django-cms/djangocms-transfer
 ### djangocms-versioning
 Adds version management for django CMS pages and other packages supporting versioning
