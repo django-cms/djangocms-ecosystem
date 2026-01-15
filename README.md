@@ -149,18 +149,18 @@ django CMS Video is a set of plugins for django CMS that allow you to publish vi
 These Django packages are officially endorsed by the django CMS Association.
 ### django-filer
 File and Image Management Application for django
-* django: 4.2, 5.0, 5.1, 5.2
+* django: 4.2, 5.0, 5.1, 5.2, 6.0
 * grade: production
 * repo: https://github.com/django-cms/django-filer
 
 ### django-sekizai
 Django Template blocks with extra functionality to manage CSS and JS
-* django: 4.2, 5.0, 5.1, 5.2
+* django: 4.2, 5.0, 5.1, 5.2, 6.0
 * grade: production
 * repo: https://github.com/django-cms/django-sekizai
 ### django-classy-tags
 Class-based template tags for django
-* django: 4.2, 5.0, 5.1, 5.2
+* django: 4.2, 5.0, 5.1, 5.2, 6.0
 * grade: production
 * repo: https://github.com/django-cms/django-classy-tags
 
