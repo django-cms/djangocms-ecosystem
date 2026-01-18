@@ -106,7 +106,7 @@ django CMS Picture is a plugin for django CMS that allows you to add images on y
 djangocms-rest enables frontend projects to consume django CMS content through a browsable read-only, REST/JSON API
 It is based on the django rest framework (DRF).
 * django CMS: 4.1, 5.0, 5.1
-* grade: beta
+* grade: production
 * * repo: https://github.com/django-cms/djangocms-rest
 ### djangocms-snippet
 django CMS Snippet provides a plugin for django CMS to inject HTML, CSS or JavaScript snippets into your website
