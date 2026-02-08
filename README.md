@@ -75,6 +75,12 @@ For immediate use, it includes a comprehensive set of Bootstrap 5 components and
 * django CMS: 3.11, 4.1, 5.0, 5.1
 * grade: production
 * repo: https://github.com/django-cms/djangocms-frontend
+### djangocms-googlemap
+django CMS Google Map is a set of plugins for django CMS that allow you to implement Google Map into your website.
+* django CMS: 3.11
+* grade: production
+* repo: https://github.com/django-cms/djangocms-googlemap
+* deprecated: 02/2026
 ### djangocms-link
 Universal link plugin - allows intuitive in-text linking to all known linkable objects (starting with CMS pages).
 Provides a django CMS link field and widget for developers to use in custom content elements. Compatible with
@@ -82,11 +88,6 @@ Provides a django CMS link field and widget for developers to use in custom cont
 * django CMS: 3.11, 4.1, 5.0, 5.1
 * grade: production
 * repo: https://github.com/django-cms/djangocms-link
-### djangocms-maps
-A universal maps plugin for django CMS, supporting all major map providers
-* django CMS: 3.11
-* grade: production
-* repo: https://github.com/Organice/djangocms-maps
 ### djangocms-moderation
 Moderation workflows for django CMS and django CMS versioning
 * django CMS: 4.1, 5.0, 5.1
@@ -152,7 +153,6 @@ File and Image Management Application for django
 * django: 4.2, 5.0, 5.1, 5.2, 6.0
 * grade: production
 * repo: https://github.com/django-cms/django-filer
-
 ### django-sekizai
 Django Template blocks with extra functionality to manage CSS and JS
 * django: 4.2, 5.0, 5.1, 5.2, 6.0
@@ -170,6 +170,11 @@ django CMS blog application - Support for multilingual posts, placeholders, soci
 * django CMS: 3.11
 * grade: production
 * repo: https://github.com/nephila/djangocms-blog
+### djangocms-maps
+A universal maps plugin for django CMS, supporting all major map providers
+* django CMS: 3.11
+* grade: production
+* repo: https://github.com/Organice/djangocms-maps
 ### djangocms-timed-publishing
 django CMS versioning add on, that allows for setting start and end time for an object's visibility when publishing
 * django CMS: 4.1, 5.0, 5.1
