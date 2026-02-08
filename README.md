@@ -154,6 +154,12 @@ Text Plugin for django CMS using CKEditor 4 (now sunset)
 * deprecated: 04/2025
 * repo: https://github.com/django-cms/djangocms-text-ckeditor
 
+### djangocms-text-ckeditor5
+CKEditor5 forntend for djangocms-text. No text-enabled plugins.
+* django CMS: 3.11, 4.1, 5.0, 5.1
+* grade: beta
+* repo: https://github.com/django-cms/djangocms-text-ckeditor5
+
 ### djangocms-transfer
 Import/Export (JSON) for page contents
 * django CMS: 3.11, 4.1, 5.0, 5.1
