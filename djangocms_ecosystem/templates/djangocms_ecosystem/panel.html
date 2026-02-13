@@ -1,10 +1,10 @@
 {% load i18n %}
-<div class="col-md-8">
-    <div class="panel panel-default">
-        <div class="panel-body faq-item" style="height: 245px;">
-            <h4>{{ title }}</h4>
+<div class="mb-lg-0 col mb-4 ecosystem-package">
+    <div class="card h-100 bg-primary bg-opacity-50 ">
+        <div class="card-body">
+            <h3 class="text-secondary mb-4">{{ title }}</h3>
             <p>{{ description }}</p>
-            <p class="community-links"><a href="{{ repo_url }}" target="_blank">{% trans "Go to Repository" %}</a></p>
+            <p class="ecosystem-links"><a href="{{ repo_url }}" target="_blank">{% trans "Go to Repository" %}</a></p>
         </div>
     </div>
 </div>

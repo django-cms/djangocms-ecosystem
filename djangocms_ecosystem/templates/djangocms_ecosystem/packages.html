@@ -1,5 +1,7 @@
-{% for package in content %}
-    {% if not package.properties.deprecated %}
-        {% include "djangocms_ecosystem/panel.html" with title=package.title description=package.description repo_url=package.properties.repo %}
-    {% endif %}
-{% endfor %}
+<div  class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+    {% for package in content %}
+        {% if not package.properties.deprecated %}
+            {% include "djangocms_ecosystem/panel.html" with title=package.title description=package.description repo_url=package.properties.repo %}
+        {% endif %}
+    {% endfor %}
+</div>
