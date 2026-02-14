@@ -50,6 +50,13 @@ Support (LTS) in accordance to which Django LTS version, and actual or planned f
 ## CMS packages
 These packages are officially endorsed by the django CMS Association.
 
+### djangocms-admin-style
+django CMS Admin Style is a Django Theme tailored to the needs of django CMS.
+* django CMS: 4.1, 5.0, 5.1
+* grade: production
+* deprecated: 02/2026
+* repo: https://github.com/django-cms/djangocms-admin-style
+
 ### djangocms-alias
 Universal alias plugin for all contents that needs to be repeated within a project
 * django CMS: 4.1, 5.0, 5.1
