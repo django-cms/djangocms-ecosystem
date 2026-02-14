@@ -224,8 +224,6 @@ django CMS versioning add on, that allows for setting start and end time for an 
 * grade: production
 * repo: https://github.com/fsbraun/djangocms-timed-publishing
 
-## Third-party Django packages
-
 ## Django timelines
 ### 6.2
 * end-of-support: 03/2030
