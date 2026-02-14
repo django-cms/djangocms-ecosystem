@@ -437,5 +437,5 @@ def write_plugin_table(f: TextIO, chapter: str = "CMS packages", deprecated=Fals
                 lines = split_description(description)
                 print(f"{plugin['title']:<30} {lines[0]:<60} {status:<13} {versions}", file=f)
                 for line in lines[1:]:
-                    print(f"{'':26} {line:<60}", file=f)
+                    print(f"{'':30} {line:<60}", file=f)
         print("========================== ============================================================ =========== ==================", file=f)
