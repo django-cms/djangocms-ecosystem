@@ -423,9 +423,9 @@ def write_plugin_table(f: TextIO, chapter: str = "CMS packages", deprecated=Fals
     chapter = get_chapter(chapter)
 
     if chapter:
-        print("========================== ============================================================ =========== ==================", file=f)
-        print("Package                    Description                                                  Status      Supported Versions", file=f)
-        print("========================== ============================================================ =========== ==================", file=f)
+        print("============================== ============================================================ =========== ==================", file=f)
+        print("Package                        Description                                                  Status      Supported Versions", file=f)
+        print("============================== ============================================================ =========== ==================", file=f)
         for plugin in chapter["content"]:
             if bool(plugin["properties"].get("deprecated", False)) is deprecated:
                 status = plugin["properties"].get("grade", "unknown")
@@ -435,7 +435,7 @@ def write_plugin_table(f: TextIO, chapter: str = "CMS packages", deprecated=Fals
                 versions = ", ".join(versions)
                 description = plugin['description']
                 lines = split_description(description)
-                print(f"{plugin['title']:<26} {lines[0]:<60} {status:<13} {versions}", file=f)
+                print(f"{plugin['title']:<30} {lines[0]:<60} {status:<13} {versions}", file=f)
                 for line in lines[1:]:
                     print(f"{'':26} {line:<60}", file=f)
         print("========================== ============================================================ =========== ==================", file=f)
