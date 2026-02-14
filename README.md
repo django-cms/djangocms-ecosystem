@@ -207,6 +207,7 @@ Class-based template tags for django
 * repo: https://github.com/django-cms/django-classy-tags
 
 ## Third-party packages
+These packages are officially endorsed by the django CMS Association, but provided by third parties.
 ### djangocms-blog
 django CMS blog application - Support for multilingual posts, placeholders, social network meta tags and configurable apphooks
 * django CMS: 3.11
@@ -230,6 +231,8 @@ django CMS versioning add on, that allows for setting start and end time for an 
 * django CMS: 4.1, 5.0, 5.1
 * grade: production
 * repo: https://github.com/fsbraun/djangocms-timed-publishing
+
+## Third-party Django packages
 
 ## Django timelines
 ### 6.2
