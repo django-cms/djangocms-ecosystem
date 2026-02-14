@@ -212,6 +212,12 @@ A universal maps plugin for django CMS, supporting all major map providers
 * grade: production
 * repo: https://github.com/Organice/djangocms-maps
 
+### djangocms-simple-admin-style
+Styles the Django admin using the Django CMS theme with minimal additional CSS.
+* django CMS: 3.11, 4.1, 5.0, 5.1
+* grade: production
+* repo: https://github.com/fsbraun/djangocms-simple-admin-style
+
 ### djangocms-timed-publishing
 django CMS versioning add on, that allows for setting start and end time for an object's visibility when publishing
 * django CMS: 4.1, 5.0, 5.1
