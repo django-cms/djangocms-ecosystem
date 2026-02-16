@@ -1,9 +1,9 @@
 {% load i18n %}
-<div class="mb-lg-0 col mb-4 ecosystem-package">
+<div class="col mb-4 ecosystem-package">
     <div class="card h-100 bg-primary bg-opacity-50 ">
         <div class="card-body">
             <h3 class="text-secondary mb-4">{{ title }}</h3>
-            <p>{{ description }}</p>
+            <p class="ecosystem-text mb-2">{{ description }}</p>
             <p class="ecosystem-links"><a href="{{ repo_url }}" target="_blank">{% trans "Go to Repository" %}</a></p>
         </div>
     </div>
