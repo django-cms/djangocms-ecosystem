@@ -24,7 +24,7 @@ class DjangoPackagesPlugin(CMSPluginBase):
     render_template = "djangocms_ecosystem/packages.html"
     name = _("Official Django packages")
     module = _("Ecosystem")
-        show_add_form = False
+    show_add_form = False
 
     def render(self, context, instance, placeholder):
         context.update({
