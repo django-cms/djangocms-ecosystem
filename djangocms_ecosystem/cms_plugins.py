@@ -23,7 +23,8 @@ class CMSPackagesPlugin(CMSPluginBase):
 class DjangoPackagesPlugin(CMSPluginBase):
     render_template = "djangocms_ecosystem/packages.html"
     name = _("Official Django packages")
-    show_add_form = False
+    module = _("Ecosystem")
+        show_add_form = False
 
     def render(self, context, instance, placeholder):
         context.update({
@@ -36,6 +37,7 @@ class DjangoPackagesPlugin(CMSPluginBase):
 class DeprecatedPackagesPlugin(CMSPluginBase):
     render_template = "djangocms_ecosystem/deprecated.html"
     name = _("Deprecated packages")
+    module = _("Ecosystem")
     show_add_form = False
 
     def render(self, context, instance, placeholder):
