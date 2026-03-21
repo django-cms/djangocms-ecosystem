@@ -35,7 +35,7 @@ class DjangoPackagesPlugin(CMSPluginBase):
 
 
 @plugin_pool.register_plugin
-class DjangoPackagesPlugin(CMSPluginBase):
+class ThirdPartyPackagesPlugin(CMSPluginBase):
     render_template = "djangocms_ecosystem/packages.html"
     name = _("Third-party packages")
     module = _("Ecosystem")
