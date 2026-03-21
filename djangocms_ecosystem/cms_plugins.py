@@ -9,7 +9,8 @@ from djangocms_ecosystem import get_chapter, read_ecosystem
 @plugin_pool.register_plugin
 class CMSPackagesPlugin(CMSPluginBase):
     render_template = "djangocms_ecosystem/packages.html"
-    name = _("Official CMS packages")
+    name = _("django CMS packages")
+    module = _("Ecosystem")
     show_add_form = False
 
     def render(self, context, instance, placeholder):
@@ -22,13 +23,27 @@ class CMSPackagesPlugin(CMSPluginBase):
 @plugin_pool.register_plugin
 class DjangoPackagesPlugin(CMSPluginBase):
     render_template = "djangocms_ecosystem/packages.html"
-    name = _("Official Django packages")
+    name = _("Django packages")
     module = _("Ecosystem")
     show_add_form = False
 
     def render(self, context, instance, placeholder):
         context.update({
             "content": get_chapter("Django packages").get("content", []),
+        })
+        return context
+
+
+@plugin_pool.register_plugin
+class DjangoPackagesPlugin(CMSPluginBase):
+    render_template = "djangocms_ecosystem/packages.html"
+    name = _("Third-party packages")
+    module = _("Ecosystem")
+    show_add_form = False
+
+    def render(self, context, instance, placeholder):
+        context.update({
+            "content": get_chapter("Third-party packages").get("content", []),
         })
         return context
 
