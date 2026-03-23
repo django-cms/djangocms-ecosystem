@@ -214,11 +214,23 @@ django CMS blog application - Support for multilingual posts, placeholders, soci
 * grade: production
 * repo: https://github.com/nephila/djangocms-blog
 
+### djangocms-katex
+Provides a django CMS plugin to render mathematical and chemical formulae written in the LaTeX languageusing.
+* django CMS: 3.11, 4.1, 5.0, 5.1
+* grade: production
+* repo: https://github.com/fsbraun/djangocms-markdown
+
 ### djangocms-maps
 A universal maps plugin for django CMS, supporting all major map providers
 * django CMS: 3.11
 * grade: production
 * repo: https://github.com/Organice/djangocms-maps
+
+### djangocms-markdown
+A markdown content plugin and model field for django CMS. Write content in Markdown using an integrated editor and have it rendered as HTML on your site.
+* django CMS: 3.11, 4.1, 5.0, 5.1
+* grade: production
+* repo: https://github.com/fsbraun/djangocms-markdown
 
 ### djangocms-simple-admin-style
 Styles the Django admin using the Django CMS theme with minimal additional CSS.
