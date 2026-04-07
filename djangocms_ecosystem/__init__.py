@@ -81,6 +81,90 @@ def _read_ecosystem() -> list[dict[list[dict[str, str]]]]:
     return ecosystem
 
 
+def _is_date_current(date_str: str) -> bool:
+    """Check if a MM/YYYY date string is in the current month or future."""
+    try:
+        month, year = date_str.split("/")
+    except ValueError:
+        return True  # Unknown format, assume current
+    now = datetime.now()
+    return (year, month) >= (now.strftime("%Y"), now.strftime("%m"))
+
+
+def get_supported_cms_versions() -> list[str]:
+    """Returns django CMS version numbers currently under support.
+
+    A version is supported if:
+    - It has at least one LTS Django version whose end-of-support is current/future, OR
+    - It has no LTS but lists django/python compatibility (still in active development).
+    """
+    djangocms = get_chapter("django CMS")
+    django_timelines = get_chapter("Django timelines")
+    if not djangocms or not django_timelines:
+        return []
+
+    def get_end_of_support(django_version: str) -> str:
+        for dj in django_timelines["content"]:
+            if dj["title"] == django_version:
+                return dj["properties"].get("end-of-support", "unknown")
+        return "unknown"
+
+    supported = []
+    for content in djangocms["content"]:
+        if not content["title"].startswith("django CMS "):
+            continue
+        version = content["title"][11:].strip()
+        lts_versions = content["properties"].get("LTS", [])
+        if not isinstance(lts_versions, list):
+            lts_versions = [lts_versions]
+
+        if lts_versions:
+            if any(_is_date_current(get_end_of_support(lts)) for lts in lts_versions):
+                supported.append(version)
+        elif content["properties"].get("django"):
+            # No LTS but has django support info — still in active development
+            supported.append(version)
+
+    return supported
+
+
+def get_supported_django_versions() -> set[str]:
+    """Returns Django versions used by currently-supported django CMS versions."""
+    djangocms = get_chapter("django CMS")
+    if not djangocms:
+        return set()
+    supported = get_supported_cms_versions()
+    versions = set()
+    for content in djangocms["content"]:
+        if content["title"].startswith("django CMS "):
+            version = content["title"][11:].strip()
+            if version in supported:
+                for v in content["properties"].get("django", []):
+                    versions.add(v)
+    return versions
+
+
+def filter_supported(content: list, field: str = "django CMS") -> list:
+    """Filter packages to only include those supporting a currently-supported version.
+
+    Args:
+        content: List of package dicts.
+        field: Property field to check — "django CMS" or "django".
+    """
+    if field == "django CMS":
+        supported = get_supported_cms_versions()
+    else:
+        supported = get_supported_django_versions()
+    result = []
+    for package in content:
+        versions = package.get("properties", {}).get(field, [])
+        if not isinstance(versions, list):
+            versions = [versions]
+        if any(v in supported for v in versions):
+            result.append(package)
+    return result
+
+
 def get_chapter(name: str) -> dict[list[dict[str, str]]]:
     """
     Retrieve a chapter from the ecosystem by its title.

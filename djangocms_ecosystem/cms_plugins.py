@@ -3,7 +3,7 @@ from cms.plugin_pool import plugin_pool
 
 from django.utils.translation import gettext_lazy as _
 
-from djangocms_ecosystem import get_chapter, read_ecosystem
+from djangocms_ecosystem import filter_supported, get_chapter, read_ecosystem
 
 
 @plugin_pool.register_plugin
@@ -15,7 +15,7 @@ class CMSPackagesPlugin(CMSPluginBase):
 
     def render(self, context, instance, placeholder):
         context.update({
-            "content": get_chapter("CMS packages").get("content", []),
+            "content": filter_supported(get_chapter("CMS packages").get("content", [])),
         })
         return context
 
@@ -29,7 +29,7 @@ class DjangoPackagesPlugin(CMSPluginBase):
 
     def render(self, context, instance, placeholder):
         context.update({
-            "content": get_chapter("Django packages").get("content", []),
+            "content": filter_supported(get_chapter("Django packages").get("content", []), field="django"),
         })
         return context
 
