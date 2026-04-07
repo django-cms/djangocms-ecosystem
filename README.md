@@ -218,7 +218,7 @@ django CMS blog application - Support for multilingual posts, placeholders, soci
 Provides a django CMS plugin to render mathematical and chemical formulae written in the LaTeX languageusing.
 * django CMS: 3.11, 4.1, 5.0, 5.1
 * grade: production
-* repo: https://github.com/fsbraun/djangocms-markdown
+* repo: https://github.com/fsbraun/djangocms-katex
 
 ### djangocms-maps
 A universal maps plugin for django CMS, supporting all major map providers
