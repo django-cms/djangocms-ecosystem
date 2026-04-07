@@ -1,12 +1,24 @@
 # Officially endorsed django CMS packages
 
-This file provides a comprehensive overview of the officially endorsed django CMS packages,
-including their compatibility with different versions of django CMS, Django, and Python. It also
-details the feature-freeze dates for various versions of django CMS.
+This repository provides a structured overview of the django CMS ecosystem, including officially supported and community-maintained packages, along with their compatibility across Django and django CMS versions.
 
-Most importantly, it lists current officialy endorsed CMS packages, their descriptions,
-compatibility, and development status. The document further includes information on related
-Django packages and third-party packages, along with their compatibility and repository links.
+Its goal is to help developers quickly understand:
+* Which packages are available
+* Their maintenance status
+* Their compatibility with current supported versions
+
+**Contributing Third-Party Packages**
+
+We welcome contributions from the community to keep this ecosystem comprehensive and up to date.
+
+Third-party packages can be added via a pull request, provided the existing structure of this repository is preserved.
+
+To be included, packages must meet the following requirements:
+* Support the current Django LTS release (minimum)
+* Support the current django CMS LTS release (minimum)
+* Demonstrate an active commitment to maintenance
+
+Maintaining a consistent structure ensures the ecosystem remains easy to navigate and reliable for all users.
 
 ## django CMS
 This chapter provides overview over the major django CMS versions, corresponding Long-Term
