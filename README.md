@@ -174,7 +174,7 @@ Text Plugin for django CMS using CKEditor 4 (now sunset)
 * repo: https://github.com/django-cms/djangocms-text-ckeditor
 
 ### djangocms-text-ckeditor5
-CKEditor5 forntend for djangocms-text. No text-enabled plugins.
+Fully-fledged CKEditor5 frontend for djangocms-text.
 * django CMS: 3.11, 4.1, 5.0, 5.1
 * grade: beta
 * repo: https://github.com/django-cms/djangocms-text-ckeditor5
