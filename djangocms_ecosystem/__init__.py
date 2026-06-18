@@ -510,7 +510,7 @@ def write_plugin_table(f: TextIO, chapter: str = "CMS packages", deprecated=Fals
         print("============================== ============================================================ ============= ==================", file=f)
         print("Package                        Description                                                  Status        Supported Versions", file=f)
         print("============================== ============================================================ ============= ==================", file=f)
-        for plugin in chapter["content"]:
+        for plugin in filter_supported(chapter["content"]):
             if bool(plugin["properties"].get("deprecated", False)) is deprecated:
                 status = plugin["properties"].get("grade", "unknown")
                 versions = plugin["properties"].get("django CMS", [])
