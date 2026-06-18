@@ -43,7 +43,10 @@ class ThirdPartyPackagesPlugin(CMSPluginBase):
 
     def render(self, context, instance, placeholder):
         context.update({
-            "content": get_chapter("Third-party packages").get("content", []),
+            "content": filter_supported(
+                get_chapter("Third-party packages").get("content", []),
+                field="django CMS",
+            ),
         })
         return context
 
