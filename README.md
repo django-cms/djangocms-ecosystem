@@ -29,7 +29,7 @@ Support (LTS) in accordance to which Django LTS version, and actual or planned f
 * feature-freeze: February 2027
 
 ### django CMS 5.1
-* django: 5.2, 6.0
+* django: 5.2, 6.0, 6.1
 * python: 3.10, 3.11, 3.12, 3.13, 3.14
 * feature-freeze: December 2025
 
