@@ -95,6 +95,12 @@ djangocms-frontend offers an automatic migration
 * deprecated: 01/2024
 * repo: https://github.com/django-cms/djangocms-bootstrap4
 
+### djangocms-file
+django CMS File is a set of plugins for django CMS that allow you to add files for download to your site.
+* django CMS: 3.11, 4.1, 5.0, 5.1
+* grade: production
+* repo: https://github.com/django-cms/djangocms-file
+
 ### djangocms-form-builder
 Flexible HTML forms for your django CMS projects
 * django CMS: 3.11, 4.1, 5.0, 5.1
