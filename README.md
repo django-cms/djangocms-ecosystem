@@ -115,11 +115,17 @@ For immediate use, it includes a comprehensive set of Bootstrap 5 components and
 * repo: https://github.com/django-cms/djangocms-frontend
 
 ### djangocms-googlemap
-django CMS Google Map is a set of plugins for django CMS that allow you to implement Google Map into your website.
+Set of plugins for django CMS that allow you to implement Google Map into your website.
 * django CMS: 3.11
 * grade: production
 * repo: https://github.com/django-cms/djangocms-googlemap
 * deprecated: 02/2026
+
+### djangocms-history
+Undo/redo functionality for django CMS operations
+* django CMS: 3.11, 4.1, 5.0, 5.1
+* grade: production
+* repo: https://github.com/django-cms/djangocms-history
 
 ### djangocms-link
 Universal link plugin - allows intuitive in-text linking to all known linkable objects (starting with CMS pages).
