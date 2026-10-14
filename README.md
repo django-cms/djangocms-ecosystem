@@ -214,19 +214,19 @@ These Django packages are officially endorsed by the django CMS Association.
 
 ### django-filer
 File and Image Management Application for django
-* django: 4.2, 5.0, 5.1, 5.2, 6.0
+* django: 4.2, 5.0, 5.1, 5.2, 6.0, 6.1
 * grade: production
 * repo: https://github.com/django-cms/django-filer
 
 ### django-sekizai
 Django Template blocks with extra functionality to manage CSS and JS
-* django: 4.2, 5.0, 5.1, 5.2, 6.0
+* django: 4.2, 5.0, 5.1, 5.2, 6.0, 6.1
 * grade: production
 * repo: https://github.com/django-cms/django-sekizai
 
 ### django-classy-tags
 Class-based template tags for django
-* django: 4.2, 5.0, 5.1, 5.2, 6.0
+* django: 4.2, 5.0, 5.1, 5.2, 6.0, 6.1
 * grade: production
 * repo: https://github.com/django-cms/django-classy-tags
 
