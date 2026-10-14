@@ -24,7 +24,7 @@ Maintaining a consistent structure ensures the ecosystem remains easy to navigat
 This chapter provides overview over the major django CMS versions, corresponding Long-Term
 Support (LTS) in accordance to which Django LTS version, and actual or planned feature freezes.
 
-### django CMS x.x
+### django CMS 6.0
 * LTS: 6.2
 * feature-freeze: February 2027
 
